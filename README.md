@@ -18,7 +18,7 @@ Two independent projects cover different dimensions of modern fraud defense:
 
 ---
 
-## Fraud Detection
+## Fraud Detection AI agent
 
 **[→ View Project](./Fraud-detection/)**
 
