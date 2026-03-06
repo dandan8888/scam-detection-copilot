@@ -3,6 +3,7 @@
 > Four-domain fraud detection pipeline covering transaction fraud, merchant risk, AML, and credit application fraud.
 
 **[Demo Walkthrough Video →](https:)**
+
 **[Live Dashboard →](https://dandan8888.github.io/Fraud_Risk_Intelligence_Portfolio/Fintech-risk/risk-analytics-dashboard.html)**  
 **[Jupyter Notebook →](./risk_analytics.ipynb)**
 
