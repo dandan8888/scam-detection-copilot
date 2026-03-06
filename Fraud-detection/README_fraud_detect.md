@@ -1,8 +1,8 @@
-# Scam Defense Copilot
+# Fraud Detection AI agent
 
-> AI-powered scam detection agent combining behavioral science with LLM reasoning.
+> AI-powered fraud detection agent combining behavioral science with LLM reasoning.
 
-**[Live Demo →](https://your-username.github.io/fraud-risk-portfolio/scam-defense/)**
+**[Live Demo →](https://github.com/dandan8888/Fraud_Risk_Intelligence_Portfolio/blob/main/Fraud-detection/fraud-detection-dashboard)**
 
 ---
 
@@ -112,6 +112,6 @@ Single-file deployment — no backend, no build step.
 ## About
 
 **Dan Fang** | danfly8888@gmail.com | Ramat Gan, Israel  
-Risk Intelligence Analyst (2016–2019) · M.Sc. Machine Learning, Reichman University (2025)
+AI-Driven Fraud & Risk Intelligence Specialist
 
 [← Back to Portfolio](../README.md)
