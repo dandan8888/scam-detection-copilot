@@ -2,16 +2,17 @@
 
 > Four-domain fraud detection pipeline covering transaction fraud, merchant risk, AML, and credit application fraud.
 
-**[Live Dashboard →](https://your-username.github.io/fraud-risk-portfolio/fintech-risk/fraud-analytics-dashboard.html)**  
+**[Demo Walkthrough Video →](https:)**
+**[Live Dashboard →](https://dandan8888.github.io/Fraud_Risk_Intelligence_Portfolio/Fintech-risk/risk-analytics-dashboard.html)**  
 **[Jupyter Notebook →](./risk_analytics.ipynb)**
 
 ---
 
 ## Overview
 
-This project demonstrates the quantitative side of fraud and risk analysis — the counterpart to the [Scam Defense Copilot](../scam-defense/)'s qualitative reasoning.
+This project demonstrates the quantitative side of fraud and risk analysis — the counterpart to the [Fraud Detection](../Fraud-detection/)'s qualitative reasoning.
 
-Where the Copilot asks *"what psychological tactics is this scammer using?"*, this project asks *"across 10,000 transactions, which ones are statistically anomalous, and what does the portfolio-level risk look like?"*
+Where the agent asks *"what psychological tactics is this scammer using?"*, this project asks *"across 10,000 transactions, which ones are statistically anomalous, and what does the portfolio-level risk look like?"*
 
 Both questions matter in a mature fraud operation.
 
@@ -124,6 +125,6 @@ Fraud labels are scarce, delayed, and never complete. Both Isolation Forest and 
 ## About
 
 **Dan Fang** | danfly8888@gmail.com | Ramat Gan, Israel  
-Risk Intelligence Analyst (2016–2019) · M.Sc. Machine Learning, Reichman University (2025)
+AI-Driven Fraud & Risk Intelligence Specialist · M.Sc. Machine Learning
 
 [← Back to Portfolio](../README.md)
