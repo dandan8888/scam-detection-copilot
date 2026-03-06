@@ -1,6 +1,6 @@
 # Fraud & Risk Intelligence Portfolio
 
-**Dan Fang** | Risk Intelligence · M.Sc. Machine Learning  
+**Dan Fang** | AI-Driven Fraud & Risk Intelligence Specialist 
 📧 danfly8888@gmail.com | 📍 Ramat Gan, Israel
 
 ---
