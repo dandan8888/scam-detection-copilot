@@ -1,19 +1,17 @@
 # Fintech Risk Analytics
 
-> Four-domain fraud detection pipeline covering transaction fraud, merchant risk, AML, and credit application fraud.
+> Five-domain fraud detection pipeline covering transaction fraud, merchant risk, AML, credit application fraud, and chargeback & payout abuse.
 
-**[Demo Walkthrough Video →](https:)**
-
-**[Live Dashboard →](https://dandan8888.github.io/Fraud_Risk_Intelligence_Portfolio/Fintech-risk/risk-analytics-dashboard.html)**  
+**[Live Dashboard →](https://your-username.github.io/fraud-risk-portfolio/fintech-risk/fraud-analytics-dashboard.html)**  
 **[Jupyter Notebook →](./risk_analytics.ipynb)**
 
 ---
 
 ## Overview
 
-This project demonstrates the quantitative side of fraud and risk analysis — the counterpart to the [Fraud Detection](../Fraud-detection/)'s qualitative reasoning.
+This project demonstrates the quantitative side of fraud and risk analysis — the counterpart to the [Scam Defense Copilot](../scam-defense/)'s qualitative reasoning.
 
-Where the agent asks *"what psychological tactics is this scammer using?"*, this project asks *"across 10,000 transactions, which ones are statistically anomalous, and what does the portfolio-level risk look like?"*
+Where the Copilot asks *"what psychological tactics is this scammer using?"*, this project asks *"across 10,000 transactions, which ones are statistically anomalous, and what does the portfolio-level risk look like?"*
 
 Both questions matter in a mature fraud operation.
 
@@ -42,9 +40,9 @@ Upload any transaction CSV and get instant analysis. The dashboard auto-detects 
 
 ---
 
-## Part 2 — Jupyter Notebook: Four-Domain Pipeline
+## Part 2 — Jupyter Notebook: Five-Domain Pipeline
 
-Full analytical pipeline with code, visualizations, and business commentary.
+Full analytical pipeline with code, visualizations, and business commentary across five fraud domains.
 
 ### Module 1 — Transaction Fraud (Credit Card / Payment)
 
@@ -92,6 +90,22 @@ Logistic regression scorecard (intentionally simpler than gradient boosting) wit
 - Application form timing (bot-speed vs human-speed)
 - Address tenure
 
+### Module 5 — Chargeback & Payout Fraud (Live Streaming / Digital Payments)
+
+**Business focus:** Keeping platform chargeback rates below the Visa (0.9%) and Mastercard (1.0%) thresholds that trigger card network fines and remediation programmes. Equally, detecting payout abuse — fraudulent creators extracting funds through fabricated engagement.
+
+Typologies detected:
+- **Friendly fraud:** Real purchases disputed after goods are consumed
+- **Chargeback fraud:** Coordinated dispute abuse to extract value
+- **Bonus abuse:** Exploiting promotional credits and referral schemes
+- **Payout fraud:** New accounts fabricating creator revenue to trigger withdrawals
+
+Key outputs:
+- Chargeback rate by country, user segment, account age, and transaction amount
+- Seasonal trend analysis — August (promotion abuse) and December (holiday fraud) spike identification
+- High-risk user scoring with automated investigation report
+- Account age gate analysis — accounts under 30 days show 3–5× the chargeback rate of established users
+
 ---
 
 ## Design Principles
@@ -108,24 +122,28 @@ The logistic regression scorecard in Module 4 is simpler than a gradient boostin
 **Unsupervised methods are operationally essential.**  
 Fraud labels are scarce, delayed, and never complete. Both Isolation Forest and the AML network features operate without labels — making them deployable on day one.
 
+**Proactive beats reactive.**  
+Module 5 demonstrates that fraud spikes are predictable — seasonal patterns, new account windows, and high-risk geographies are known in advance. Tightening controls ahead of these windows, rather than in response to them, is the mark of a mature risk programme.
+
 ---
 
 ## Model Performance Summary
 
-| Module | Method | ROC-AUC |
-|--------|--------|---------|
-| Transaction Fraud | Rule Engine + Isolation Forest | ~0.87 |
-| Merchant Risk | Composite Score + KMeans | ~0.84 |
-| AML Detection | Network Features + Rules | ~0.82 |
-| Credit Fraud | Logistic Regression Scorecard | ~0.83 |
+| Module | Domain | Method | ROC-AUC |
+|--------|--------|--------|---------|
+| 1. Transaction Fraud | Credit card / CNP | Rule Engine + Isolation Forest | ~0.87 |
+| 2. Merchant Risk | Portfolio monitoring | Composite Score + KMeans | ~0.84 |
+| 3. AML Detection | Compliance | Network Features + Rules | ~0.82 |
+| 4. Credit Fraud | Loan origination | Logistic Regression Scorecard | ~0.83 |
+| 5. Chargeback & Payout | Digital payments | Segmentation + Threshold Rules | ~0.81 |
 
-> All results on synthetic data designed to reflect realistic fraud-to-legitimate ratios and behavioral distributions.
+> All results on synthetic data designed to reflect realistic fraud-to-legitimate ratios and behavioral distributions from published industry benchmarks (Nilson Report, FinCEN SAR statistics, Visa/Mastercard dispute data).
 
 ---
 
 ## About
 
 **Dan Fang** | danfly8888@gmail.com | Ramat Gan, Israel  
-AI-Driven Fraud & Risk Intelligence Specialist · M.Sc. Machine Learning
+Risk Intelligence Analyst (2016–2019) · M.Sc. Machine Learning, Reichman University (2025)
 
 [← Back to Portfolio](../README.md)
