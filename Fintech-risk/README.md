@@ -6,18 +6,6 @@ danfly8888@gmail.com · Ramat Gan, Israel
 **[Live Dashboard →](https://dandan8888.github.io/Fraud_Risk_Intelligence_Portfolio/Fintech-risk/risk-analytics-dashboard.html)**  
 **[Jupyter Notebook →](./risk_analytics.ipynb)**
 ---
-
-## What this project demonstrates
-
-This portfolio answers the questions hiring managers actually ask when screening a Data Analyst or Risk Analyst:
-
-> *"Can they write SQL?"* → Module 0: five business-driven SQL queries with DuckDB  
-> *"Can they turn data into a business recommendation?"* → Every module ends with a plain-English recommendation, not just a chart  
-> *"Do they understand the domain?"* → 3 years operational fraud experience shapes every feature and threshold  
-> *"Can they build a dashboard a non-technical stakeholder can use?"* → Interactive HTML dashboard, no setup required
-
-**Who this is relevant for:** Fintech, payments, banking, e-commerce, SaaS — any team that needs an analyst who combines data skills with business judgment.
-
 ---
 
 ## Skills at a Glance
