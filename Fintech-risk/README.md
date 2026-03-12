@@ -39,7 +39,7 @@ Upload any transaction CSV and get instant analysis. The dashboard auto-detects 
 
 ## Part 2 — Jupyter Notebook: SQL + Five-Domain Pipeline
 
-### Module 0 — SQL Exploratory Analysis *(added to demonstrate DA skills)*
+### Module 0 — SQL Exploratory Analysis
 
 Before reaching for Python, a data analyst reaches for SQL. This module runs five analytical queries directly on the datasets using DuckDB — the same questions a DA would ask on day one of an investigation.
 
