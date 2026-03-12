@@ -155,7 +155,7 @@ Key outputs:
 
 ## Professional Profile
 
-All resultsI am a Risk Data Analyst specializing in the intersection of fraud intelligence and scalable data solutions. With experience investigating financial crime, I bridge the gap between deep domain expertise and modern analytics. This portfolio demonstrates my ability to transform complex transactional data into actionable risk strategies using SQL, Python, and Machine Learning.
+Risk Data Analyst specializing in the intersection of fraud intelligence and scalable data solutions. With experience investigating financial crime, I bridge the gap between deep domain expertise and modern analytics. This portfolio demonstrates my ability to transform complex transactional data into actionable risk strategies using SQL, Python, and Machine Learning.
 
 ---
 [⬅️ Back to Main Portfolio](https://github.com/dandan8888/Fraud_Risk_Intelligence_Portfolio/tree/main/Fintech-risk)
